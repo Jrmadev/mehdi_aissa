@@ -1,0 +1,786 @@
+<!doctype html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio | Mehdi AISSA - Développeur Web Junior</title>
+    <meta
+      content="Portfolio de Mehdi AISSA, développeur web junior. Découvrez mon parcours académique, mes expériences professionnelles, mes compétences et mes projets."
+      name="description"
+    />
+    <meta content="Mehdi AISSA" name="author" />
+    <meta content="index,follow" name="robots" />
+    <!-- Polices -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- =====================================================
+       NAVBAR
+  ====================================================== -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <button
+          aria-expanded="false"
+          aria-label="Ouvrir le menu"
+          class="menu-toggle"
+          type="button"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="logo">
+          <a href="index.html"> Mehdi AISSA </a>
+        </div>
+        <nav aria-label="Navigation principale" class="nav-links">
+          <ul>
+            <li>
+              <a href="#accueil"> Accueil </a>
+            </li>
+            <li>
+              <a href="#profil"> À propos </a>
+            </li>
+            <li>
+              <a href="#competences"> Compétences </a>
+            </li>
+            <li>
+              <a href="#parcours"> Parcours </a>
+            </li>
+            <li>
+              <a href="#experiences"> Expériences </a>
+            </li>
+            <li>
+              <a href="#projets"> Projets </a>
+            </li>
+            <li><a href="#veille">Veille technologique</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- =====================================================
+         HERO
+    ====================================================== -->
+      <section class="hero" id="accueil">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="hero-label">
+              <i class="fa-solid fa-code"></i>
+              DÉVELOPPEUR INFORMATIQUE JUNIOR
+            </span>
+            <h1>
+              Bienvenue sur
+              <span>mon portfolio.</span>
+            </h1>
+            <p class="hero-description">
+              Je suis <strong>Mehdi AISSA</strong>, développeur web junior et
+              aspirant <strong>Full-Stack</strong>, actuellement à la recherche
+              d'une alternance afin de développer mes compétences et d'enrichir
+              mon expérience professionnelle.
+            </p>
+            <div class="hero-buttons">
+              <a class="btn btn-primary" href="#parcours">
+                <i class="fa-solid fa-arrow-down"></i>
+                Découvrir mon parcours
+              </a>
+              <a class="btn btn-secondary" href="#projets">
+                <i class="fa-solid fa-folder-open"></i>
+                Voir mes projets
+              </a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-portrait">
+              <img
+                src="assets/img/m_logo.png"
+                alt="Portrait de Mehdi Aissa"
+                loading="lazy"
+                onerror="
+                  this.hidden = true;
+                  this.parentElement.classList.add('missing-portrait');
+                "
+              />
+              <div class="portrait-placeholder">
+                <i class="fa-regular fa-user"></i><span>Photo à ajouter</span
+                ><small>assets/img/me_img.png</small>
+              </div>
+            </div>
+            <div class="hero-card-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <span> PROFIL </span>
+            <h2>Développeur Web Junior</h2>
+            <p>Front-end • Back-end • Full-Stack</p>
+          </div>
+        </div>
+      </section>
+      <!-- =====================================================
+         PROFIL
+    ====================================================== -->
+      <section class="section" id="profil">
+        <div class="container">
+          <div class="section-heading">
+            <span> À PROPOS </span>
+            <h2>Mon profil</h2>
+          </div>
+          <div class="profile-grid">
+            <div class="profile-text">
+              <p>
+                Développeur Web Junior et aspirant
+                <strong>Full-Stack</strong>, je m'intéresse particulièrement à
+                la conception d'interfaces modernes, au développement
+                d'applications web et à la création de solutions numériques
+                adaptées aux besoins des utilisateurs.
+              </p>
+              <p>
+                Mon parcours m'a permis d'acquérir des bases solides en
+                <strong>développement front-end et back-end</strong>, tout en
+                développant une approche orientée vers la pratique à travers
+                différents projets personnels, scolaires et professionnels.
+              </p>
+              <p>
+                Je souhaite aujourd'hui intégrer une entreprise dans le cadre
+                d'une <strong>alternance</strong>, afin de continuer à
+                progresser aux côtés de professionnels et de contribuer à des
+                projets concrets.
+              </p>
+            </div>
+            <div class="profile-highlights">
+              <div class="highlight">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                  <strong>Développement</strong>
+                  <span>Front-end &amp; Back-end</span>
+                </div>
+              </div>
+              <div class="highlight">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Formation</strong>
+                  <span>BTS SIO SLAM — formation suivie</span>
+                </div>
+              </div>
+              <div class="highlight">
+                <i class="fa-solid fa-rocket"></i>
+                <div>
+                  <strong>Objectif</strong>
+                  <span>Évoluer vers le Full-Stack</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =====================================================
+         COMPÉTENCES
+    ====================================================== -->
+      <section class="section section-dark" id="competences">
+        <div class="container">
+          <div class="section-heading">
+            <span> TECHNOLOGIES </span>
+            <h2>Mes compétences</h2>
+            <p>
+              Les technologies et outils que j'utilise ou que je développe
+              actuellement dans mon parcours.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <!-- Front-end -->
+            <article class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-solid fa-display"></i>
+              </div>
+              <h3>Front-end</h3>
+              <ul>
+                <li>
+                  <i class="fa-brands fa-html5"></i>
+                  HTML5
+                </li>
+                <li>
+                  <i class="fa-brands fa-css3-alt"></i>
+                  CSS3
+                </li>
+                <li>
+                  <i class="fa-brands fa-js"></i>
+                  JavaScript
+                </li>
+                <li>Responsive Design</li>
+              </ul>
+            </article>
+            <!-- Back-end -->
+            <article class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <h3>Back-end</h3>
+              <ul>
+                <li>
+                  <i class="fa-brands fa-php"></i>
+                  PHP
+                </li>
+
+                <li>MySQL</li>
+                <li>API REST</li>
+              </ul>
+            </article>
+            <!-- Outils -->
+            <article class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <h3>Outils &amp; environnement</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-code"></i>
+                  Visual Studio Code
+                </li>
+                <li>
+                  <i class="fa-brands fa-git-alt"></i>
+                  Git
+                </li>
+                <li>
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </li>
+                <li>WampServer</li>
+                <li>Terminal / CMD</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- =====================================================
+         PARCOURS ACADÉMIQUE
+    ====================================================== -->
+      <section class="section" id="parcours">
+        <div class="container">
+          <div class="section-heading">
+            <span>FORMATION</span>
+            <h2>Mon parcours académique</h2>
+            <p>
+              Un parcours construit autour de l'informatique, des mathématiques
+              et de la pratique du développement.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-dot"><i class="fa-solid fa-code"></i></div>
+              <div class="timeline-card">
+                <span class="timeline-date">2018 — 2020</span>
+                <h3>BTS SIO — option SLAM</h3>
+                <h4>Campus Sciences-U · Lyon</h4>
+                <p>
+                  Formation suivie en solutions logicielles et applications
+                  métiers. <strong>Diplôme non obtenu.</strong>
+                </p>
+                <div class="tag-list">
+                  <span>Développement</span><span>Bases de données</span
+                  ><span>Web</span>
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-dot">
+                <i class="fa-solid fa-square-root-variable"></i>
+              </div>
+              <div class="timeline-card">
+                <span class="timeline-date">2016 — 2017</span>
+                <h3>Licence 1 Mathématiques-Informatique</h3>
+                <h4>Université Claude Bernard Lyon 1</h4>
+                <p>
+                  Première année universitaire suivie en mathématiques et
+                  informatique, sans revendication d'obtention de licence.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-dot">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-card">
+                <span class="timeline-date">2014 — 2016</span>
+                <h3>Baccalauréat STI2D — SIN</h3>
+                <h4>Lycée La Martinière Monplaisir · Lyon</h4>
+                <p>Spécialité Systèmes d'information et numérique.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- =====================================================
+         EXPÉRIENCES PROFESSIONNELLES
+    ====================================================== -->
+      <section class="section section-dark" id="experiences">
+        <div class="container">
+          <div class="section-heading">
+            <span>EXPÉRIENCES</span>
+            <h2>Du développement aux besoins utilisateurs</h2>
+            <p>
+              Des expériences techniques et métiers qui nourrissent ma façon de
+              concevoir des outils utiles.
+            </p>
+          </div>
+          <div class="experience-grid">
+            <article class="experience-card">
+              <span class="eyebrow">2018 — 2019 · Stage</span>
+              <h3>Développeur full-stack stagiaire</h3>
+              <h4>CRC Tessi Documents Services · Lyon</h4>
+              <p>
+                Participation à la définition du cahier des charges et au
+                développement local d'un outil destiné aux téléconseillers,
+                comprenant une interface web et un formulaire dynamique de
+                bâtonnage.
+              </p>
+              <div class="pills">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>PHP</span><span>MySQL</span>
+              </div>
+            </article>
+            <article class="experience-card">
+              <span class="eyebrow">2020 — 2021</span>
+              <h3>Téléconseiller-formateur</h3>
+              <h4>CRC Tessi Documents Services · Lyon</h4>
+              <p>
+                Accompagnement des équipes, rôle de référent métier et formation
+                sur les campagnes d'appels. Une expérience concrète des usages
+                et contraintes opérationnelles.
+              </p>
+            </article>
+            <article class="experience-card">
+              <span class="eyebrow">2022 — 2024</span>
+              <h3>Relation client et accueil</h3>
+              <h4>Aésio Mutuelle (2022–2023) · Société Générale (2023–2024)</h4>
+              <p>
+                Téléconseil puis accueil bancaire : écoute, résolution de
+                demandes et communication avec des publics variés.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- =====================================================
+         PROJETS
+    ====================================================== -->
+      <section class="section" id="projets">
+        <div class="container">
+          <div class="section-heading">
+            <span>RÉALISATIONS</span>
+            <h2>Mes projets, en toute transparence</h2>
+            <p>
+              Des réalisations personnelles et professionnelles. Les
+              fonctionnalités décrites correspondent au code étudié ; les
+              projets en développement sont identifiés comme tels.
+            </p>
+          </div>
+          <div class="projects-grid">
+            <article class="portfolio-project">
+              <div class="project-image" data-image="quizlab_img.png">
+                <a
+                  class="project-image-link"
+                  href="https://quizlab-challenge.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ouvrir le site QuizLab"
+                  ><img
+                    alt="Capture d’écran du projet QuizLab"
+                    loading="lazy"
+                    onerror="
+                      this.hidden = true;
+                      this.parentElement.classList.add('missing-image');
+                    "
+                    src="assets/img/projets/quizlab_img.png"
+                  />
+                  <div class="image-placeholder">
+                    <i class="fa-regular fa-image"></i
+                    ><span>Capture à ajouter</span
+                    ><small>assets/img/projets/quizlab_img.png</small>
+                  </div></a
+                >
+              </div>
+              <div class="project-body">
+                <span class="eyebrow">Projet personnel</span>
+                <h3>QuizLab</h3>
+                <h4>Application de quiz interactive</h4>
+                <p>
+                  Quiz web avec progression, niveaux et mode multijoueur
+                  reposant sur Supabase. Le code comprend la création et la
+                  participation à des sessions.
+                </p>
+                <div class="project-tech">
+                  HTML · CSS · JavaScript · Supabase
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://quizlab-challenge.netlify.app"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >Voir le site
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
+                  ><a
+                    href="https://github.com/Jrmadev/QuizLab"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >Code source <i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="portfolio-project">
+              <div class="project-image" data-image="batonnage_img.png">
+                <img
+                  alt="Capture d’écran du projet Outil de bâtonnage"
+                  loading="lazy"
+                  onerror="
+                    this.hidden = true;
+                    this.parentElement.classList.add('missing-image');
+                  "
+                  src="assets/img/projets/batonnage_img.png"
+                />
+                <div class="image-placeholder">
+                  <i class="fa-regular fa-image"></i
+                  ><span>Capture à ajouter</span
+                  ><small>assets/img/projets/batonnage_img.png</small>
+                </div>
+              </div>
+              <div class="project-body">
+                <span class="eyebrow">Stage chez Tessi</span>
+                <h3>Outil de bâtonnage</h3>
+                <h4>Formulaire dynamique métier</h4>
+                <p>
+                  Interface de saisie et de suivi conçue pour les besoins de
+                  téléconseillers. Projet présenté comme réalisation de stage,
+                  sans divulgation de données professionnelles.
+                </p>
+                <div class="project-tech">HTML · CSS · JavaScript</div>
+                <div class="project-links"></div>
+              </div>
+            </article>
+            <article class="portfolio-project">
+              <div class="project-image" data-image="maison-eclat.jpg">
+                <img
+                  alt="Capture d’écran du projet Maison Éclat"
+                  loading="lazy"
+                  onerror="
+                    this.hidden = true;
+                    this.parentElement.classList.add('missing-image');
+                  "
+                  src="assets/img/projets/me_img.png"
+                />
+                <div class="image-placeholder">
+                  <i class="fa-regular fa-image"></i
+                  ><span>Capture à ajouter</span
+                  ><small>assets/img/projets/maison-eclat.jpg</small>
+                </div>
+              </div>
+              <div class="project-body">
+                <span class="eyebrow">Projet personnel</span>
+                <h3>Maison Éclat</h3>
+                <h4>Boutique e-commerce en développement</h4>
+                <p>
+                  Application PHP/MySQL avec catalogue, panier, comptes
+                  utilisateurs et back-office. Les parcours de paiement et le
+                  déploiement en production ne sont pas présentés comme validés.
+                </p>
+                <div class="project-tech">
+                  PHP · MySQL · JavaScript · HTML · CSS
+                </div>
+                <div class="project-links"></div>
+              </div>
+            </article>
+            <article class="portfolio-project">
+              <div class="project-image" data-image="madev_img.png">
+                <a
+                  class="project-image-link"
+                  href="https://mad3v-prod.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ouvrir le site Madev Production"
+                  ><img
+                    alt="Capture d’écran du projet Madev Production"
+                    loading="lazy"
+                    onerror="
+                      this.hidden = true;
+                      this.parentElement.classList.add('missing-image');
+                    "
+                    src="assets/img/projets/madev_img.png"
+                  />
+                  <div class="image-placeholder">
+                    <i class="fa-regular fa-image"></i
+                    ><span>Capture à ajouter</span
+                    ><small>assets/img/projets/madev_img.png</small>
+                  </div></a
+                >
+              </div>
+              <div class="project-body">
+                <span class="eyebrow">Projet personnel</span>
+                <h3>Madev Production</h3>
+                <h4>Site vitrine et univers numérique</h4>
+                <p>
+                  Site de présentation lié à la création de contenu, au
+                  streaming et aux technologies, avec plusieurs rubriques et une
+                  interface dédiée à la boutique.
+                </p>
+                <div class="project-tech">HTML · CSS · JavaScript</div>
+                <div class="project-links">
+                  <a
+                    href="https://mad3v-prod.netlify.app/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >Voir le site
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <p class="projects-note">
+            <i class="fa-solid fa-circle-info"></i> Les emplacements visuels
+            sont prêts : ajoute simplement tes images aux chemins indiqués. Les
+            projets non publics ne disposent volontairement pas de lien de
+            démonstration.
+          </p>
+        </div>
+      </section>
+      <section class="section section-dark" id="veille">
+        <div class="container">
+          <div class="section-heading">
+            <span>VEILLE TECHNOLOGIQUE</span>
+            <h2>Architectures web modernes &amp; cloud</h2>
+            <p>
+              Comprendre comment concevoir, héberger, sécuriser et faire évoluer
+              des applications web. Cette rubrique présente mes axes de
+              recherche et des sources de référence ; elle n'invente pas de
+              travaux de veille passés.
+            </p>
+          </div>
+          <div class="veille-intro">
+            <div>
+              <span class="eyebrow">QUESTION CENTRALE</span>
+              <h3>
+                Comment choisir une architecture adaptée à un projet web, de son
+                prototype à sa mise en production ?
+              </h3>
+              <p>
+                Je m'intéresse aux compromis entre hébergement traditionnel,
+                services managés et approches serverless : coût, sécurité,
+                maintenance, performance et simplicité de déploiement.
+              </p>
+            </div>
+            <div class="veille-process">
+              <strong>Ma méthode de veille</strong>
+              <ol>
+                <li>
+                  Consulter les documentations et publications officielles.
+                </li>
+                <li>Comparer les solutions et noter leurs limites.</li>
+                <li>Tester lorsque c'est possible sur un projet personnel.</li>
+                <li>Documenter les résultats et dater les nouvelles fiches.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="veille-grid">
+            <article class="veille-card">
+              <span class="veille-num">01 / BASE DE DONNÉES</span>
+              <h3>Backend as a Service : Supabase</h3>
+              <p>
+                Étudier les services d'authentification, les bases PostgreSQL,
+                les politiques d'accès et les fonctionnalités temps réel.
+                <strong>Cas concret :</strong> QuizLab utilise Supabase pour son
+                mode multijoueur.
+              </p>
+              <a
+                href="https://supabase.com/docs"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Documentation Supabase ↗</a
+              >
+            </article>
+            <article class="veille-card">
+              <span class="veille-num">02 / DÉPLOIEMENT</span>
+              <h3>Hébergement et CI/CD</h3>
+              <p>
+                Comparer déploiement statique, hébergement PHP et automatisation
+                via Git. Examiner les environnements de test et de production
+                avant toute mise en ligne.
+              </p>
+              <a
+                href="https://docs.netlify.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Documentation Netlify ↗</a
+              >
+            </article>
+            <article class="veille-card">
+              <span class="veille-num">03 / ARCHITECTURE</span>
+              <h3>API, monolithe et serverless</h3>
+              <p>
+                Comprendre les échanges client-serveur, les API et les fonctions
+                à la demande. <strong>Cas concret :</strong> Maison Éclat sert
+                de support pour réfléchir à une application PHP avec base de
+                données.
+              </p>
+              <a
+                href="https://developer.mozilla.org/fr/docs/Web/HTTP"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Ressources HTTP / API ↗</a
+              >
+            </article>
+            <article class="veille-card">
+              <span class="veille-num">04 / SÉCURITÉ</span>
+              <h3>Secrets et contrôle des accès</h3>
+              <p>
+                Étudier la protection des clés d'API, les variables
+                d'environnement, les autorisations côté serveur et les risques
+                liés aux dépendances cloud.
+              </p>
+              <a
+                href="https://owasp.org/www-project-top-ten/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >OWASP Top 10 ↗</a
+              >
+            </article>
+          </div>
+          <div class="veille-bottom">
+            <div>
+              <span class="eyebrow">JOURNAL DE VEILLE</span>
+              <h3>Des notes techniques datées, à venir</h3>
+              <p>
+                Les futures fiches présenteront une source, sa date de
+                publication, une synthèse personnelle, les avantages, les
+                limites et les enseignements appliqués aux projets. Aucun
+                article n'est artificiellement antidaté.
+              </p>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/Jrmadev"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i> Mes projets sur GitHub</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <span>CONTACT</span>
+            <h2>Échangeons sur votre projet</h2>
+            <p>
+              Je recherche une opportunité en développement web junior ou en
+              alternance, pour progresser et contribuer à des projets concrets.
+            </p>
+          </div>
+          <div class="contact-layout">
+            <div class="contact-details">
+              <h3>Parlons de votre projet</h3>
+              <p>
+                Une question, une opportunité ou une proposition de
+                collaboration ? Écrivez-moi directement ici.
+              </p>
+              <a href="mailto:aissamehd@gmail.com"
+                ><i class="fa-solid fa-envelope"></i> aissamehd@gmail.com</a
+              ><a
+                href="https://github.com/Jrmadev"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-github"></i> Mes projets sur GitHub</a
+              >
+            </div>
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/aissamehd@gmail.com"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="Nouveau message depuis le portfolio de Mehdi Aissa"
+              /><input type="hidden" name="_template" value="table" /><input
+                type="hidden"
+                name="_captcha"
+                value="true"
+              />
+              <div class="form-row">
+                <label
+                  >Nom et prénom<input
+                    type="text"
+                    name="nom"
+                    autocomplete="name"
+                    maxlength="120"
+                    required
+                    placeholder="Votre nom" /></label
+                ><label
+                  >Adresse e-mail<input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    maxlength="254"
+                    required
+                    placeholder="vous@exemple.fr"
+                /></label>
+              </div>
+              <label
+                >Objet<input
+                  type="text"
+                  name="objet"
+                  maxlength="160"
+                  required
+                  placeholder="Objet de votre message" /></label
+              ><label
+                >Message<textarea
+                  name="message"
+                  rows="6"
+                  maxlength="5000"
+                  required
+                  placeholder="Votre message..."
+                ></textarea></label
+              ><label class="consent"
+                ><input type="checkbox" required /> J'accepte que les
+                informations saisies soient utilisées uniquement pour répondre à
+                mon message.</label
+              ><button class="btn btn-primary" type="submit">
+                <i class="fa-solid fa-paper-plane"></i> Envoyer le message
+              </button>
+              <p class="form-note">
+                Envoi sécurisé via FormSubmit. Lors de la première utilisation,
+                l'adresse de réception devra être confirmée par e-mail.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+    <footer class="footer">
+      <p>© 2026 <strong>Mehdi AISSA</strong> — Portfolio développeur web.</p>
+      <div class="footer-social">
+        <a
+          aria-label="GitHub"
+          href="https://github.com/Jrmadev"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
+    <script defer="True" src="script/script.js"></script>
+  </body>
+</html>
